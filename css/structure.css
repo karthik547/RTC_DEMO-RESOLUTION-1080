@@ -225,7 +225,8 @@ sub {
 }
 
 .cta--side.cta--5 .cta__button {
-    height: 212px;
+    height: 76px;
+    width:67px;
 }
 
 .fullscreen .cta--side.cta--5 .cta__button {
