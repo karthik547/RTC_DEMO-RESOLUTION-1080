@@ -1,4 +1,10 @@
 /** Global Styling **/
+center{
+height:35px;
+    }
+.jsPromoContainer promo--1{
+margin-top:7%;
+}
 * {
     box-sizing: border-box;
 }
