@@ -111,7 +111,7 @@ var Translations = {
             "states": [
                 {
                     "cardId": "START",
-                    "width": 10
+                    "width": 20
                 }
             ]
         },
@@ -120,7 +120,7 @@ var Translations = {
             "states": [
                 {
                     "cardId": "26f3539e",
-                    "width": 10
+                    "width":20
                 }    
             ]
         },
@@ -128,7 +128,7 @@ var Translations = {
             "label": "PERSONALIZATION",
             "states": [
                 {
-                    "cardId": "26f3539e",
+                    "cardId": "129c0e3c",
                     "width": 10
                 },
                 {
