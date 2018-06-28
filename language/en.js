@@ -107,11 +107,11 @@ var Translations = {
      */
     "ChapterSettings": [
         {
-            "label": "Introduction",
+            "label": "INTRODUCTION",
             "states": [
                 {
                     "cardId": "START",
-                    "width": 15
+                    "width": 10
                 }
             ]
         },
@@ -120,7 +120,7 @@ var Translations = {
             "states": [
                 {
                     "cardId": "26f3539e",
-                    "width": 15
+                    "width": 10
                 }    
             ]
         },
@@ -129,11 +129,11 @@ var Translations = {
             "states": [
                 {
                     "cardId": "26f3539e",
-                    "width": 15
+                    "width": 10
                 },
                 {
                     "cardId": "fc8d1a3a",
-                    "width": 15
+                    "width": 10
                 }
             ]
         },
@@ -143,11 +143,11 @@ var Translations = {
             "states": [
                 {
                     "cardId": "8af5f097",
-                    "width": 15
+                    "width": 10
                 },
                  {
                     "cardId": "04ae54c4",
-                    "width": 15
+                    "width": 10
                 }
             ]
         },
@@ -156,11 +156,11 @@ var Translations = {
             "states": [
                 {
                     "cardId": "f4824bf8",
-                    "width": 15
+                    "width": 10
                 },
                 {
                     "cardId": "784e106c",
-                    "width": 15
+                    "width": 10
                 }
                
             ]
@@ -187,7 +187,7 @@ var Translations = {
             "states": [
                 {
                     "cardId": "End",
-                    "width": 15
+                    "width": 10
                 }
             ]
         }
