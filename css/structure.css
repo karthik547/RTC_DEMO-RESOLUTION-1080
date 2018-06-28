@@ -278,6 +278,7 @@ sub {
 
 .player__splash {
     position: absolute;
+    margin-left:9%;
     display: none;
     width: 100%;
     height: 100%;
