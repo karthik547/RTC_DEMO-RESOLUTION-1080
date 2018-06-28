@@ -120,7 +120,7 @@ var Translations = {
             "states": [
                 {
                     "cardId": "26f3539e",
-                    "width":20
+                    "width":10
                 }    
             ]
         },
@@ -143,11 +143,11 @@ var Translations = {
             "states": [
                 {
                     "cardId": "8af5f097",
-                    "width": 10
+                    "width": 7
                 },
                  {
                     "cardId": "04ae54c4",
-                    "width": 10
+                    "width": 8
                 }
             ]
         },
@@ -156,11 +156,11 @@ var Translations = {
             "states": [
                 {
                     "cardId": "f4824bf8",
-                    "width": 10
+                    "width": 12
                 },
                 {
                     "cardId": "784e106c",
-                    "width": 10
+                    "width": 13
                 }
                
             ]
@@ -170,15 +170,15 @@ var Translations = {
             "states": [
                 {
                     "cardId": "ddc44336",
-                    "width": 5
+                    "width": 2
                 },
                 {
                     "cardId": "ccec9820",
-                    "width": 5
+                    "width": 2
                 },
                 {
                     "cardId": "d0bc6b55",
-                    "width": 5
+                    "width": 1
                 }
             ]
         },
