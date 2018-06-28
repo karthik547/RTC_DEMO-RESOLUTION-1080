@@ -132,7 +132,7 @@ sub {
     overflow: hidden;
     margin: 0 auto;
     width: 2460px;
-    background-image: url(images/background_tile.jpg);
+    background-image: url(https://raw.githubusercontent.com/karthik547/RTC_DEMO-RESOLUTION-1080/master/images/background_tile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
