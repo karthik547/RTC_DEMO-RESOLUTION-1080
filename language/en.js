@@ -111,29 +111,83 @@ var Translations = {
             "states": [
                 {
                     "cardId": "START",
-                    "width": 20
+                    "width": 15
                 }
             ]
         },
         {
-            "label": "Your Account",
+            "label": "HELPING YOU",
             "states": [
                 {
-                    "cardId": "77a834f0",
-                    "width": 20
+                    "cardId": "26f3539e",
+                    "width": 15
+                }    
+            ]
+        },
+         {
+            "label": "PERSONALIZATION",
+            "states": [
+                {
+                    "cardId": "26f3539e",
+                    "width": 15
                 },
                 {
-                    "cardId": "c23a68c9",
-                    "width": 20
+                    "cardId": "fc8d1a3a",
+                    "width": 15
+                }
+            ]
+        },
+        
+        {
+            "label": "SERVICE TOUR",
+            "states": [
+                {
+                    "cardId": "8af5f097",
+                    "width": 15
+                },
+                 {
+                    "cardId": "04ae54c4",
+                    "width": 15
                 }
             ]
         },
         {
-            "label": "Thank You",
+            "label": "OPTIONAL INFORMATION",
             "states": [
                 {
-                    "cardId": "7b0123a5",
-                    "width": 40
+                    "cardId": "f4824bf8",
+                    "width": 15
+                },
+                {
+                    "cardId": "784e106c",
+                    "width": 15
+                }
+               
+            ]
+        },
+        {
+            "label": "QUESTIONS",
+            "states": [
+                {
+                    "cardId": "ddc44336",
+                    "width": 10
+                },
+                {
+                    "cardId": "ccec9820",
+                    "width": 10
+                },
+                {
+                    "cardId": "d0bc6b55",
+                    "width": 10
+                }
+            ]
+        },
+        {
+            "label": "THANKS",
+            "states": [
+                {
+                    "cardId": "End",
+                    "width": 15
                 }
             ]
         }
