@@ -290,6 +290,7 @@ sub {
     float: left;
     width: 270px;
     margin-top:7%;
+    margin-left: -89px;
 }
 
 .fullscreen .promo--side {
