@@ -228,7 +228,7 @@ sub {
 .cta--side.cta--5 .cta__button {
     height: 60px;
     width:67px;
-    margin-left:50%;
+    margin-left:70%;
 }
 
 .fullscreen .cta--side.cta--5 .cta__button {
@@ -756,7 +756,7 @@ div.promo__item.promo__item--bottom {
     }
 
     .cta--side.cta--5 .cta__button {
-        height: 100px;
+        height: 90px;
     }
 
     .promo--side .promo__item {
