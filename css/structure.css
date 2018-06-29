@@ -38,10 +38,11 @@ sub {
     display: block;
     margin: 0 auto;
     width: 2460px;
+	height:120px;
 }
 
 .header__logo {
-    padding: 60px 10px 20px 10px;
+    padding: 0px 310px 25px 10px;
     max-width: 100%;
 }
 
