@@ -877,6 +877,7 @@ div.promo__item.promo__item--bottom {
     .cta--side,
     .promo--side {
         width: 90px;
+	        margin-left: -20px;
     }
 
     .cta--side.cta--1 .cta__button {
