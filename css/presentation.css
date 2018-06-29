@@ -267,7 +267,7 @@ border-bottom-right-radius: 6%;
 }
 
 .player__splash {
-    opacity: 0.5;
+    opacity: 0;
     background-color: #000;
     cursor: pointer;
 }
@@ -414,8 +414,8 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline__button-icon--play {
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 26px;
     background-position-x: calc((100%/26) * 0);
     --timeline-bgX: calc((100%/26) * 0);
 }
@@ -752,8 +752,8 @@ border-bottom-right-radius: 6%;
 
     .cta__icon {
         margin-bottom: 15px;
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
     }
 
     .fullscreen .cta__icon {
@@ -778,11 +778,11 @@ border-bottom-right-radius: 6%;
 
     .timeline__button--skip-back,
     .timeline__button--skip-forward {
-        width: 77px;
+        width: 47px;
     }
 
     .timeline__button--play-pause {
-        width: 66px;
+        width: 45px;
     }
 
     .fullscreen .timeline__button-icon {
