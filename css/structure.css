@@ -158,8 +158,8 @@ sub {
     min-height: 1px;
     position: relative;
     left: 0%;
-    margin-top: 7%;
-    margin-right: -2%;
+    margin-top: 0%;
+    margin-right: 0%;
 }
 
 .fullscreen .cta--side {
@@ -273,8 +273,8 @@ sub {
     position: relative;
     width: 73%;
     height: 72.9%;
-    top: 8%;
-    left: 7%;
+    top: 0%;
+    left: 13%;
     box-shadow: 0 10px 22px -5px black;
 }
 
@@ -328,8 +328,8 @@ div.promo__item.promo__item--bottom {
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-	margin-left:1250px;
-	margin-top:-635px;
+	margin-left:1128px;
+	margin-top:-751px;
 }
 
 .timeline {
