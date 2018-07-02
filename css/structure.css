@@ -1358,8 +1358,8 @@ div.promo__item.promo__item--bottom {
 @media screen and (max-width: 820px) {
     .cta--side {
         position: absolute;
-        top: -8px;
-        left: 17px;
+        top: 107px;
+        left: 0px;
         height: 100%;
         width: 81.5px;
     }
