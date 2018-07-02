@@ -107,7 +107,7 @@ var Translations = {
      */
     "ChapterSettings": [
         {
-            "label": "INTRODUCTION",
+            "label": "introduction",
             "states": [
                 {
                     "cardId": "START",
@@ -116,7 +116,7 @@ var Translations = {
             ]
         },
         {
-            "label": "HELPING YOU",
+            "label": "helping you",
             "states": [
                 {
                     "cardId": "26f3539e",
@@ -125,7 +125,7 @@ var Translations = {
             ]
         },
          {
-            "label": "PERSONALIZATION",
+            "label": "personilization",
             "states": [
                 {
                     "cardId": "129c0e3c",
@@ -140,7 +140,7 @@ var Translations = {
         },
         
         {
-            "label": "SERVICE TOUR",
+            "label": "service tour",
             "states": [
                 {
                     "cardId": "8af5f097",
@@ -153,29 +153,29 @@ var Translations = {
             ]
         },
         {
-            "label": "OPTIONAL INFORMATION",
+            "label": "optional information",
             "states": [
                 {
                     "cardId": "f4824bf8",
-                    "width": 10
+                    "width": 7
                 },
                 {
                     "cardId": "784e106c",
-                    "width": 10
+                    "width": 8
                 }
                
             ]
         },
         {
-            "label": "QUESTIONS",
+            "label": "questions",
             "states": [
                 {
                     "cardId": "ddc44336",
-                    "width": 6
+                    "width": 7
                 },
                 {
                     "cardId": "ccec9820",
-                    "width": 6
+                    "width": 7
                 },
                 {
                     "cardId": "d0bc6b55",
@@ -184,7 +184,7 @@ var Translations = {
             ]
         },
         {
-            "label": "THANKS",
+            "label": "thanks",
             "states": [
                 {
                     "cardId": "End",
