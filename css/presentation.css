@@ -752,7 +752,8 @@ border-bottom-right-radius: 6%;
     .promo--side .promo__image{
 		width:100%;
 		height:100%;
-	    	margin-top: 1px;
+	    	    margin-left: -88%;
+    margin-top: -597px;
 	}
     
     .cta__icon {
@@ -853,6 +854,13 @@ border-bottom-right-radius: 6%;
         width: 28px;
         height: 28px;
     }
+	
+	.promo--side .promo__image{
+		width:100%;
+		height:100%;
+	    	    margin-left: -88%;
+    margin-top: -597px;
+	}
 
     .social--top-right .social__icon {
         margin-right: 4px;
@@ -993,6 +1001,12 @@ border-bottom-right-radius: 6%;
         width: 26px;
         height: 26px;
     }
+	.promo--side .promo__image{
+		width:100%;
+		height:100%;
+	    	    margin-left: -88%;
+    margin-top: -597px;
+	}
 
     .social--top-right .social__icon {
         margin-right: 3px;
@@ -1119,6 +1133,12 @@ border-bottom-right-radius: 6%;
     .fullscreen .cta--side .cta__label {
         font-size: 12px;
     }
+	.promo--side .promo__image{
+		width:100%;
+		height:100%;
+	    	    margin-left: -88%;
+    margin-top: -597px;
+	}
 
     .timeline__button--skip-back,
     .timeline__button--skip-forward {
@@ -1220,7 +1240,12 @@ border-bottom-right-radius: 6%;
     .header__logo {
       /**  width: 300px; **/
     }
-
+.promo--side .promo__image{
+		width:100%;
+		height:100%;
+	    	    margin-left: -88%;
+    margin-top: -597px;
+	}
     .player__splash-image {
         margin-top: calc((100% * (9/16)) / 2 - (78px / 2)); /* Calculate the margin-top based on half the video height, minus half the height of the splash icon */
         width: 75px;
@@ -1259,7 +1284,12 @@ border-bottom-right-radius: 6%;
         margin-bottom: 3px;
     }
 }
-
+.promo--side .promo__image{
+		width:100%;
+		height:100%;
+	    	    margin-left: -88%;
+    margin-top: -597px;
+	}
 @media screen and (max-width: 375px) and (orientation: portrait) {
     .timeline__button-icon--skip-forward {
         margin-left: 0px;
