@@ -110,7 +110,8 @@ var Translations = {
             "label": "INTRODUCTION",
             "states": [
                 {
-                    "cardId": "START"
+                    "cardId": "START",
+                    "width": 10
                 }
             ]
         },
@@ -118,7 +119,8 @@ var Translations = {
             "label": "HELPING YOU",
             "states": [
                 {
-                    "cardId": "26f3539e"
+                    "cardId": "26f3539e",
+                    "width": 10
                 }    
             ]
         },
@@ -126,10 +128,13 @@ var Translations = {
             "label": "PERSONALIZATION",
             "states": [
                 {
-                    "cardId": "129c0e3c"
+                    "cardId": "129c0e3c",
+                    "width": 10
                 },
                 {
                     "cardId": "fc8d1a3a"
+                    ,
+                    "width": 10
                 }
             ]
         },
@@ -138,10 +143,12 @@ var Translations = {
             "label": "SERVICE TOUR",
             "states": [
                 {
-                    "cardId": "8af5f097"
+                    "cardId": "8af5f097",
+                    "width": 10
                 },
                  {
-                    "cardId": "04ae54c4"
+                    "cardId": "04ae54c4",
+                    "width": 10
                 }
             ]
         },
@@ -149,10 +156,12 @@ var Translations = {
             "label": "OPTIONAL INFORMATION",
             "states": [
                 {
-                    "cardId": "f4824bf8"
+                    "cardId": "f4824bf8",
+                    "width": 10
                 },
                 {
-                    "cardId": "784e106c"
+                    "cardId": "784e106c",
+                    "width": 10
                 }
                
             ]
@@ -161,13 +170,16 @@ var Translations = {
             "label": "QUESTIONS",
             "states": [
                 {
-                    "cardId": "ddc44336"
+                    "cardId": "ddc44336",
+                    "width": 6
                 },
                 {
-                    "cardId": "ccec9820"
+                    "cardId": "ccec9820",
+                    "width": 6
                 },
                 {
-                    "cardId": "d0bc6b55"
+                    "cardId": "d0bc6b55",
+                    "width": 6
                 }
             ]
         },
@@ -175,7 +187,8 @@ var Translations = {
             "label": "THANKS",
             "states": [
                 {
-                    "cardId": "End"
+                    "cardId": "End",
+                    "width": 5
                 }
             ]
         }
