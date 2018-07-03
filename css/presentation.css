@@ -1317,6 +1317,9 @@ border-bottom-right-radius: 6%;
         --social-bgY: 0;
     }
 
+	.timeline {
+    font-size: 4px;
+}
     .fullscreen .cta--side .cta__button:hover {
         left: -130%;
     }
