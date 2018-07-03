@@ -1301,6 +1301,9 @@ border-bottom-right-radius: 6%;
     .cta__icon {
         margin-bottom: 2px;
     }
+		.timeline {
+    font-size: 4px;
+}
 }
 
 /** General rules for devices which don't support the hover state **/
@@ -1317,9 +1320,7 @@ border-bottom-right-radius: 6%;
         --social-bgY: 0;
     }
 
-	.timeline {
-    font-size: 4px;
-}
+
     .fullscreen .cta--side .cta__button:hover {
         left: -130%;
     }
