@@ -203,7 +203,7 @@
 .cta__button:hover,
 .cta__button:active,
 .focusable.cta__button:focus {
-    background-color: #00436e;
+    background-color: 	#000000;
 }
 
 .fullscreen .cta--side .cta__button {
