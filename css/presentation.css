@@ -1280,7 +1280,7 @@ border-bottom-right-radius: 6%;
 }
 
 /** Smaller mobile devices **/
-@media screen and (max-width: 500px), screen and (max-height: 300px) and (orientation: landscape) and (orientation: portrait) {
+@media screen and (max-width: 500px), screen and (max-height: 300px) and (orientation: landscape){
     .cta__icon {
         margin-bottom: 3px;
     }
@@ -1297,7 +1297,7 @@ border-bottom-right-radius: 6%;
 }
 
 /** Very small mobile devices **/
-@media screen and (max-height: 260px) and (orientation: landscape) and (orientation: portrait) {
+@media screen and (max-height: 260px) and (orientation: landscape)  {
     .cta__icon {
         margin-bottom: 2px;
     }
@@ -1333,6 +1333,67 @@ border-bottom-right-radius: 6%;
     .player__splash:active .player__splash-image {
         background-position-x: 0;
         --splash-bgX: 0;
+    }
+	
+	.timeline {
+        font-size: 2px;
+    }
+
+    .timeline__button-icon {
+        width: 5px;
+        height: 5px;
+    }
+
+    .timeline__button-icon--play,
+    .timeline__button-icon--pause {
+        width: 5px;
+        height: 5px;
+    }
+	
+	
+	
+	
+	
+	.timeline__button--skip-back,
+    .timeline__button--skip-forward {
+        width: 8px;
+    }
+
+    .timeline__button--play-pause {
+        width: 4px;
+    }
+
+    .timeline__button-icon--skip-back {
+        margin-right: 1px;
+    }
+
+    .timeline__button-icon--skip-forward {
+        margin-left: 1px;
+    }
+
+    .timeline__settings-popout,
+    .timeline__settings-quality,
+    .timeline__settings-language,
+    .timeline__settings-cc {
+        width: 50px;
+        font-size: 6px;
+    }
+	
+	
+	
+	
+	   .timeline--no-volume .timeline__settings-popout,
+    .timeline--no-volume .timeline__settings-quality,
+    .timeline--no-volume .timeline__settings-language,
+    .timeline--no-volume .timeline__settings-cc {
+        right: 11px;
+    }
+
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-popout,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-quality,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-language,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-cc {
+        right: 8px;
     }
 
     .timeline__settings-heading--clickable:hover .timeline__button-icon,
