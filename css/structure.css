@@ -271,10 +271,10 @@ sub {
 
 .player__iframe {
     position: relative;
-    width: 73%;
-    height: 72.9%;
-    top: 0%;
-    left: 3%;
+    width: 960px;
+    height: 540px;
+    top: 1%;
+    left: 5%;
     box-shadow: 0 10px 22px -5px black;
 }
 
@@ -287,7 +287,7 @@ sub {
 
 .promo--side {
     float: right;
-    width: 270px;
+    width: 540px;
 	
   
 }
