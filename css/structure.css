@@ -274,7 +274,7 @@ sub {
     width: 960px;
     height: 540px;
     top: 1%;
-    left: 5%;
+    left: 2%;
     box-shadow: 0 10px 22px -5px black;
 }
 
@@ -307,7 +307,7 @@ div.promo__item.promo__item--bottom {
 .promo--side .promo__item {
     width: 130px;
     height: 536px;
-    margin-left: -127%;
+    margin-left: -37%;
 }
 
 .promo--side .promo__item--top {
