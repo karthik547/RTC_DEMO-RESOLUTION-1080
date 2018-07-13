@@ -305,9 +305,10 @@ div.promo__item.promo__item--bottom {
 }
 
 .promo--side .promo__item {
-    width: 100%;
+    width: 130px;
     height: 536px;
-    margin-left: -90%;
+    margin-left: -38%;
+	margin-top:20%;
 }
 
 .promo--side .promo__item--top {
