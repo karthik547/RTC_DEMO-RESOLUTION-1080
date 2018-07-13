@@ -306,7 +306,7 @@ div.promo__item.promo__item--bottom {
 
 .promo--side .promo__item {
     width: 130px;
-    height: 536px;
+    height: 170px;
     margin-left: -38%;
 	margin-top:20%;
 }
@@ -763,6 +763,7 @@ div.promo__item.promo__item--bottom {
 
     .promo--side .promo__item {
         height: 220px;
+	    
     }
 
     .promo--side .promo__item--top {
