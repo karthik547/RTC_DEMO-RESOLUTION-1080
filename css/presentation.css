@@ -942,7 +942,7 @@ border-bottom-right-radius: 6%;
     .timeline__settings-language,
     .timeline__settings-cc {
         top: -180px;
-        right: 150px;
+        right: 0px;
         padding: 13px;
         height: 180px;
         width: 200px;
