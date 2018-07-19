@@ -941,12 +941,12 @@ border-bottom-right-radius: 6%;
     .timeline__settings-quality,
     .timeline__settings-language,
     .timeline__settings-cc {
-        top: -180px;
+        top: -161px;
         right: 0px;
         padding: 13px;
-        height: 180px;
-        width: 200px;
-        font-size: 15px;
+        height: 161px;
+        width: 145px;
+        font-size: 12px;
     }
 
     .fullscreen .timeline__settings-popout,
