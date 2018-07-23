@@ -82,9 +82,9 @@
 </head>
 
 <body class="body">
-    <div id="jsTopWrapper" class="top-wrapper top-wrapper--no-cta top-wrapper--no-promo">
-      
-           <!--<div class="social social--top social--expanded jsSocialIcons" id="jsSocialIconsTop">
+    <div id="jsTopWrapper" class="top-wrapper">
+        <header id="jsHeader" class="header">
+            <div class="social social--top social--expanded jsSocialIcons" id="jsSocialIconsTop">
                 <a href="#" class="social__icon social__icon--collapse" id="jsSocialIconTopCollapse">
                     <span class="sr-only translate" data-translate="CollapseText">Collapse</span>
                 </a>
@@ -92,13 +92,10 @@
                     <span class="sr-only translate" data-translate="ExpandText">Expand</span>
                 </a>
             </div>
-            
+
             <br class="clearfix" />
 
-           
-            <img class="header__logo" src="images/RealTimeLogo.png" alt="Logo">
-
-            <br class="clearfix" />-->
+            <img class="header__logo" src="./images/logo.png" alt="Logo" />
 
             <div class="header__text">
                 <div id="jsHeaderLowBandwidth" class="header__lowbandwidth"></div>
@@ -107,25 +104,14 @@
                     <span class="header__preparedfor--name" id="jsPreparedForName" data-dict-name="first_name"></span>
                 </div>
             </div>
-	   
-                <div class="header__preparedfor">
-                    <span class="header__preparedfor--text" id="jsPreparedFor">&nbsp;</span>
-                    <span class="header__preparedfor--name" id="jsPreparedForName" data-dict-name="first_name"></span>
-                </div>
-            
         </header>
-        
 
-    
-            
-            <br class="clearfix">
-          </div>
-                
+        <main id="jsMain" class="main">
             <div class="cta cta--side jsCtaContainer"></div>
 
             <div class="player">
                 <div class="player__wrapper">
-                    <div class="player__iframe" id="jsPlayerIframe" style="margin-left:5%">
+                    <div class="player__iframe" id="jsPlayerIframe">
                         {{VIDEO_IFRAME}}
 
                         <div id="jsResumeSplash" class="player__splash">
@@ -199,7 +185,7 @@
                                 <div class="timeline__settings-icon timeline__settings-icon--right timeline__settings-icon--small">
                                     <div class="timeline__button-icon timeline__button-icon--right-arrow"></div>
                                 </div>
-                                <br class="clearfix"/>
+                                <div class="clearfix"></div>
                             </div>
 
                             <div id="jsLangMenuItem" class="timeline__settings-item no-focus" data-setting="language" tabindex="0">
@@ -212,7 +198,7 @@
                                 <div class="timeline__settings-icon timeline__settings-icon--right timeline__settings-icon--small">
                                     <div class="timeline__button-icon timeline__button-icon--right-arrow"></div>
                                 </div>
-                                <br class="clearfix"/>
+                                <div class="clearfix"></div>
                             </div>
 
                             <div id="jsCCMenuItem" class="timeline__settings-item no-focus" data-setting="closed-captions" tabindex="0">
@@ -225,7 +211,7 @@
                                 <div class="timeline__settings-icon timeline__settings-icon--right timeline__settings-icon--small">
                                     <div class="timeline__button-icon timeline__button-icon--right-arrow"></div>
                                 </div>
-                                <br class="clearfix"/>
+                                <div class="clearfix"></div>
                             </div>
                         </div>
 
@@ -253,14 +239,14 @@
                                 <div class="timeline__settings-icon timeline__settings-icon--right">
                                     <div id="jsCCOffTick" class="timeline__button-icon timeline__button-icon--tick"></div>
                                 </div>
-                                <br class="clearfix"/>
+                                <div class="clearfix"></div>
                             </div>
                             <div id="jsCCOnButton" class="timeline__settings-item jsTimelineSettingsCaption no-focus" data-value="on" tabindex="0">
                                 <div class="timeline__settings-text translate" data-translate="OnText">On</div>
                                 <div class="timeline__settings-icon timeline__settings-icon--right">
                                     <div id="jsCCOnTick" class="timeline__button-icon timeline__button-icon--tick"></div>
                                 </div>
-                                <br class="clearfix"/>
+                                <div class="clearfix"></div>
                             </div>
                         </div>
 
@@ -281,7 +267,7 @@
                                 <div class="timeline__settings-icon timeline__settings-icon--right">
                                     <div id="jsQualityAutoTick" class="timeline__button-icon timeline__button-icon--tick"></div>
                                 </div>
-                                <br class="clearfix"/>
+                                <div class="clearfix"></div>
                             </div>
                             <div class="timeline__settings-item jsTimelineSettingsQuality no-focus" data-quality="1080p" tabindex="0">
                                 <div class="timeline__settings-icon timeline__settings-icon--left timeline__settings-icon--small">
@@ -291,7 +277,7 @@
                                 <div class="timeline__settings-icon timeline__settings-icon--right">
                                     <div id="jsQuality1080pTick" class="timeline__button-icon timeline__button-icon--tick"></div>
                                 </div>
-                                <br class="clearfix"/>
+                                <div class="clearfix"></div>
                             </div>
                             <div class="timeline__settings-item jsTimelineSettingsQuality no-focus" data-quality="720p" tabindex="0">
                                 <div class="timeline__settings-icon timeline__settings-icon--left timeline__settings-icon--small">
@@ -301,7 +287,7 @@
                                 <div class="timeline__settings-icon timeline__settings-icon--right">
                                     <div id="jsQuality720pTick" class="timeline__button-icon timeline__button-icon--tick"></div>
                                 </div>
-                                <br class="clearfix"/>
+                                <div class="clearfix"></div>
                             </div>
                             <div class="timeline__settings-item jsTimelineSettingsQuality no-focus" data-quality="540p" tabindex="0">
                                 <div class="timeline__settings-icon timeline__settings-icon--left timeline__settings-icon--small">
@@ -311,7 +297,7 @@
                                 <div class="timeline__settings-icon timeline__settings-icon--right">
                                     <div id="jsQuality540pTick" class="timeline__button-icon timeline__button-icon--tick"></div>
                                 </div>
-                                <br class="clearfix"/>
+                                <div class="clearfix"></div>
                             </div>
                             <div class="timeline__settings-item jsTimelineSettingsQuality no-focus" data-quality="360p" tabindex="0">
                                 <div class="timeline__settings-icon timeline__settings-icon--left timeline__settings-icon--small">
@@ -321,7 +307,7 @@
                                 <div class="timeline__settings-icon timeline__settings-icon--right">
                                     <div id="jsQuality360pTick" class="timeline__button-icon timeline__button-icon--tick"></div>
                                 </div>
-                                <br class="clearfix"/>
+                                <div class="clearfix"></div>
                             </div>
                         </div>
                     </div>
@@ -331,7 +317,7 @@
                         <span class="sr-only translate" data-translate="VolumeButtonText">Volume</span>
                     </button>
 
-                 <!--   <div id="jsVolume" class="timeline-volume">
+                    <div id="jsVolume" class="timeline-volume">
                         <div id="jsVolumeBar" class="timeline-volume__bg"></div>
                         <div id="jsVolumeLevelContainer" class="timeline-volume__container">
                             <div id="jsVolumeLevel" class="timeline-volume__level">
@@ -344,17 +330,18 @@
                     <button id="jsFullScreenButton" type="button" class="jsTimelineButton timeline__button timeline__button--fullscreen no-focus">
                         <span id="jsFullScreenIcon" class="timeline__button-icon timeline__button-icon--fullscreen"></span>
                         <span class="sr-only translate" data-translate="FullScreenButtonText">Full Screen</span>
-                    </button>-->
+                    </button>
                 </div>
             </div>
         </main>
     </div>
 
-    <div id="jsBottomWrapper" class="bottom-wrapper bottom-wrapper--no-cta bottom-wrapper--no-promo">
+    <div class="bottom-wrapper">
+        <div class="clearfix"></div>
 
         <div class="cta cta--bottom jsCtaContainer"></div>
 
-        <div class="clearfix" />
+        <br class="clearfix" />
 
         <div class="social social--bottom jsSocialIcons" id="jsSocialIconsBottom"></div>
 
@@ -375,7 +362,7 @@
             </div>
 
             <div class="footer__copyright">
-                &copy; <span class="translate" data-translate="CopyrightText">Copyright <span id="jsDate"></span> Client Name</span>
+                &copy; <span class="translate" data-translate="CopyrightText">Copyright 2017 Client Name</span>
             </div>
 
             <div class="footer__links">
