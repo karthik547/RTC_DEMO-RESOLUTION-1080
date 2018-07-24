@@ -268,7 +268,7 @@ border-bottom-right-radius: 6%;
 
 .player__splash {
     opacity: 0.5;
-    background-image://cdn.engageone.video/release/2.0.13/images/splash-play.png;
+    background-color: #4169E1;
     cursor: pointer;
 }
 
