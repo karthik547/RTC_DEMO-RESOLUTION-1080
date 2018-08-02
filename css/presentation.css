@@ -347,6 +347,7 @@ border-bottom-right-radius: 6%;
 .timeline__button {
     background-color: #0a0a0a;
     cursor: pointer;
+	margin-left: -4%;
 }
 
 .timeline__button--skip-back,
