@@ -413,7 +413,7 @@ div.promo__item.promo__item--bottom {
 
 .timeline__controls--right {
     width: 405px;
-    border-left: 5px solid;
+    border-left: 1px solid;
 }
 
 .fullscreen .timeline__controls--right {
