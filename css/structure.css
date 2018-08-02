@@ -290,10 +290,7 @@ sub {
 .promo--side {
     float: right;
     width: 270px;
-	   margin-top: -39%;
-    margin-right: 3.5%;
-	
-  
+	  
 }
 
 .fullscreen .promo--side {
@@ -311,6 +308,8 @@ div.promo__item.promo__item--bottom {
 .promo--side .promo__item {
     width: 130px;
     height: 170px;
+    margin-top: -423%;
+    margin-left: -39%
     
 }
 
