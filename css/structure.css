@@ -43,7 +43,8 @@ sub {
 
 .header__logo {
     padding: 0px 0px 20px 10px;
-    max-width: 100%;
+    max-width: 30%;
+    margin-right: 4px;
 }
 
 .header__text {
@@ -157,8 +158,8 @@ sub {
     width: 270px;
     min-height: 1px;
     position: relative;
-    left: -1%;
-    margin-top: 7%;
+    left: 26px;
+    margin-top: 106px;
     margin-right: 2%;
 }
 
@@ -226,8 +227,8 @@ sub {
 }
 
 .cta--side.cta--5 .cta__button {
-    height: 40px;
-    width:82px;
+    height: 60px;
+    width:67px;
     margin-left:70%;
 }
 
@@ -262,8 +263,6 @@ sub {
 .player__wrapper {
     width: 1920px;
     height: 1080px;
-	    margin-bottom: -4%;
-
 }
 
 .fullscreen .player__wrapper {
@@ -273,10 +272,10 @@ sub {
 
 .player__iframe {
     position: relative;
-    width: 80%;
-    height: 80%;
+    width: 960px;
+    height: 540px;
     top: 0%;
-    left: 6%;
+    left: 66px;
     box-shadow: 0 10px 22px -5px black;
 }
 
@@ -290,7 +289,8 @@ sub {
 .promo--side {
     float: right;
     width: 270px;
-	  
+	
+  
 }
 
 .fullscreen .promo--side {
@@ -307,10 +307,9 @@ div.promo__item.promo__item--bottom {
 
 .promo--side .promo__item {
     width: 130px;
-    height: 170px;
-    margin-top: -423%;
-    margin-left: -39%
-    
+    height: 536px;
+    margin-left: -136%;
+    margin-top: 671px;
 }
 
 .promo--side .promo__item--top {
@@ -333,7 +332,7 @@ div.promo__item.promo__item--bottom {
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-	    margin-top: 36px;
+	    margin-top: 75px;
 }
 
 .timeline {
@@ -381,7 +380,7 @@ div.promo__item.promo__item--bottom {
 
 .timeline__controls--left {
     width: 335px;
-    border-right: 5px solid;
+    border-right: 1px solid;
 }
 
 .fullscreen .timeline__controls--left {
@@ -473,12 +472,14 @@ div.promo__item.promo__item--bottom {
 }
 
 .timeline-progress-hover,
-.timeline-progress {
+.timeline-progress 
+{
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
-}
+    height: 82px;
+    width : 24px;
+ }
 
 .timeline-progress-hover {
     z-index: 10;
@@ -520,7 +521,8 @@ div.promo__item.promo__item--bottom {
 }
 
 .timeline-chapters__chapter,
-.timeline-active-state__label {
+.timeline-active-state__label 
+{
     overflow: hidden;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -528,7 +530,9 @@ div.promo__item.promo__item--bottom {
     user-select: none;
     white-space: nowrap;
     text-overflow: ellipsis;
-
+    font-size: 13px;
+    font-family: DINMedium, Arial, sans-serif;
+    text-transform: uppercase;
     -webkit-touch-callout: none;
     -khtml-user-select: none;
 }
@@ -539,7 +543,7 @@ div.promo__item.promo__item--bottom {
     display: inline-block;
     float: left;
     height: 100%;
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .timeline-active-state__label {
@@ -573,26 +577,31 @@ div.promo__item.promo__item--bottom {
     cursor: pointer;
 }
 
-.timeline-volume__bg {
+.timeline-volume__bg 
+{
     margin-top: 35px;
-    width: 100%;
-    height: 10px;
+    width: 115%;
+    height: 23px;
 }
 
-.fullscreen .timeline-volume__bg {
+.fullscreen .timeline-volume__bg 
+{
     margin-top: calc(2.5vh - 5px);
 }
 
-.fullscreen.less-16-9 .timeline-volume__bg {
+.fullscreen.less-16-9 .timeline-volume__bg 
+{
     margin-top: calc((2.5vw * 9/16) - 5px);
 }
 
-.timeline-volume__container {
+.timeline-volume__container 
+{
     position: relative;
     width: 227px;
 }
 
-.fullscreen .timeline-volume__container {
+.fullscreen .timeline-volume__container 
+{
     width: calc(100% - 10px);
 }
 
@@ -600,14 +609,15 @@ div.promo__item.promo__item--bottom {
     width: 267px;
 }
 
-.timeline-volume__level {
+.timeline-volume__level 
+{
     position: absolute;
     z-index: 10;
-    top: -10px;
-    left: 0;
+    top: -15px;
+    left: 7px;
     padding-left: 10px;
     width: 50%;
-    height: 10px;
+    height: 7px;
 }
 
 .timeline-volume__ball {
@@ -660,7 +670,8 @@ div.promo__item.promo__item--bottom {
 
 .footer__links {
     float: right;
-    width: 33%;
+    width: 218px;
+	margin-right:45px;
 }
 
 .footer__copyright,
@@ -714,6 +725,7 @@ div.promo__item.promo__item--bottom {
 .fullscreen .top-wrapper--no-promo .timeline__controls--center {
     width: 75%;
 }
+
 
 /** 720p **/
 @media screen and (max-width: 2460px) {
