@@ -840,6 +840,37 @@ border-bottom-right-radius: 6%;
         right: 85px;
     }
 }
+#extra_footer 
+	{
+		width: 1420px;
+    		margin: 10px auto;
+    		text-align: left;
+    		margin-top: 25px;
+    		padding: 30px;
+    		border-top: 3px solid #74777d;
+    		font-size: 15px;
+    		line-height: 15px;
+    		font-family: 'DINRegular', Arial, sans-serif;
+    		color: #74777d;
+	}
+	
+	#extra_footer.heading 
+	{
+    font-size: 16px;
+	font-family: 'DINRegular', Arial, sans-serif;
+    margin-bottom: 10px;
+    }
+	
+	p {
+      margin-top:10px;
+	  font-family: 'DINRegular', Arial, sans-serif;
+	  font-size:15px;
+    }
+	
+	#extra_footer .bullet-points 
+	{
+		margin-top: 8px;
+	}
 
 /** 540p **/
 @media screen and (max-width: 1640px) {
