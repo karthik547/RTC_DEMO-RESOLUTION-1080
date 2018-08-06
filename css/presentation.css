@@ -846,7 +846,12 @@ border-bottom-right-radius: 6%;
         width: 28px;
         height: 28px;
     }
-
+.promo--side .promo__image{
+		width:100%;
+		height:100%;
+		
+    		margin-top: 74px;
+     }
     .social--top-right .social__icon {
         margin-right: 4px;
     }
@@ -933,12 +938,12 @@ border-bottom-right-radius: 6%;
     .timeline__settings-quality,
     .timeline__settings-language,
     .timeline__settings-cc {
-        top: -180px;
-        right: 150px;
+        top: -161px;
+        right: 0px;
         padding: 13px;
-        height: 180px;
-        width: 200px;
-        font-size: 15px;
+        height: 161px;
+        width: 145px;
+        font-size: 12px;
     }
 
     .fullscreen .timeline__settings-popout,
